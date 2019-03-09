@@ -1,4 +1,4 @@
-<% project_name = 'hayden-guitar-project' %>
+<% project_name = 'guitar-helper' %>
 
 default: &default
   adapter: postgresql
