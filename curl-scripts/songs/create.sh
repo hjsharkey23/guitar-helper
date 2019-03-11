@@ -7,7 +7,8 @@ curl "http://localhost:4741/songs" \
       "artist": "'"${ARTIST}"'",
       "tuning": "'"${TUNING}"'",
       "capo": "'"${CAPO}"'",
-      "chords": "'"${CHORDS}"'"
+      "chords": "'"${CHORDS}"'",
+      "title": "'"${TITLE}"'"
     }
   }'
 
