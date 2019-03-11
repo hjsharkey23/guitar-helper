@@ -1,5 +1,5 @@
 class SongsController < OpenReadController
-  before_action :set_song, only: [:show, :update, :destroy]
+  before_action :set_song, only: [:update, :destroy]
 
   # GET /songs
   def index
@@ -10,7 +10,7 @@ class SongsController < OpenReadController
 
   # GET /songs/1
   def show
-    render json: @song
+    render json: Song.find(params[:id])
   end
 
   # POST /songs
