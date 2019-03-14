@@ -39,6 +39,7 @@ class SongsController < OpenReadController
     end
   end
 
+
   # DELETE /songs/1
   def destroy
     @song.destroy
