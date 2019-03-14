@@ -8,6 +8,12 @@ class SongsController < OpenReadController
     render json: @songs
   end
 
+  # GET /user_index
+  def user_index
+    @usersongs = current_user.songs.all
+    render json: @usersongs
+  end
+
   # GET /songs/1
   def show
     render json: Song.find(params[:id])
