@@ -1,8 +1,8 @@
 
 Guitar Helper
 
-Back-end Repo:
-https://github.com/hjsharkey23/guitar-helper
+Front-end Repo:
+https://github.com/hjsharkey23/guitar-helper-client
 
 Deployed Sites:
 Front-end:
